@@ -8,12 +8,18 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "ant-design-vue": "^1.5.6",
+    "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "register-service-worker": "^1.7.1",
+    "rxjs": "^6.5.5",
     "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.0",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.1",
-    "vue-router": "^3.1.6"
+    "vue-router": "^3.1.6",
+    "vue-rx": "^6.2.0",
+    "vue-rx-decorators": "^0.0.8"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
