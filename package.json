@@ -1,6 +1,7 @@
 {
-  "name": "sententia",
+  "name": "vue-ts-template",
   "version": "0.1.0",
+  "author": "plightfied",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
