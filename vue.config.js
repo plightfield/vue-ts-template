@@ -1,4 +1,5 @@
-const path = require("path");
+const { resolve } = require("path");
+console.log(resolve("src/common.less"));
 module.exports = {
   runtimeCompiler: true,
   css: {
@@ -11,7 +12,7 @@ module.exports = {
   pluginOptions: {
     "style-resources-loader": {
       preProcessor: "less",
-      patterns: [path.resolve("src/common.less")],
+      patterns: [resolve("src/theme.less")],
     },
   },
 };
